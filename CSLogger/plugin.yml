@@ -1,0 +1,11 @@
+main: com.chaoticcade.CSLogger.cslogger
+name: CSLogger
+version: 1.0
+author: Chaotic Cade
+description: ChestShop transaction logger
+commands:
+  csl:
+    description: Shows recent ChestShop transactions.
+    usage: /cls
+    permission: CSLogger.cslogger
+    permission-message: You don't have permission to run this command.
